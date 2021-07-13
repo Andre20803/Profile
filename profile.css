@@ -1,0 +1,72 @@
+html {  
+    scroll-behavior: smooth;  
+}
+body{
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: tomato;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icons{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 15px;
+}
+i:hover{
+    color: wheat;
+    transition: 0.2s;
+}
+li{
+    color: black;
+    display: inline-block;
+    list-style-type: none;
+    margin:10px;
+    font-size: larger;
+    font-weight: 500;
+}
+.main{
+    color: white;
+
+    width: 40%;
+    margin: 20px 0;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+img{
+    border-radius: 50%;
+    width: auto;
+    height: 380px;
+}
+.other{
+    color: white;
+    display: block;
+    list-style-type: disc;
+}
+a{
+    color: white;
+}
+.a-li{
+    text-decoration: none;
+    color: white ;
+}
+.a-li:hover{
+    color: white;
+    transition: .3s;
+}
+
+#Projetos:hover{
+
+    color: pink;
+    transition: 1s;
+}
